@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook", "PhoneBook\PhoneBook.csproj", "{C546ACCE-31C6-4ABC-A834-C89846DFFF7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.DataAccess", "PhoneBook.DataAccess\PhoneBook.DataAccess.csproj", "{C06EA99C-8A29-49D0-B114-91AB3A8E28C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Contracts", "PhoneBook.Contracts\PhoneBook.Contracts.csproj", "{D8D3CB0B-6BFE-40A6-972D-AC3D8B43E3BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.BusinessLogic", "PhoneBook.BusinessLogic\PhoneBook.BusinessLogic.csproj", "{ECF1C7C1-B51A-4AF8-9164-82B7F94620B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{C546ACCE-31C6-4ABC-A834-C89846DFFF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C546ACCE-31C6-4ABC-A834-C89846DFFF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C546ACCE-31C6-4ABC-A834-C89846DFFF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06EA99C-8A29-49D0-B114-91AB3A8E28C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06EA99C-8A29-49D0-B114-91AB3A8E28C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06EA99C-8A29-49D0-B114-91AB3A8E28C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06EA99C-8A29-49D0-B114-91AB3A8E28C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D3CB0B-6BFE-40A6-972D-AC3D8B43E3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D3CB0B-6BFE-40A6-972D-AC3D8B43E3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D3CB0B-6BFE-40A6-972D-AC3D8B43E3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D3CB0B-6BFE-40A6-972D-AC3D8B43E3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF1C7C1-B51A-4AF8-9164-82B7F94620B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF1C7C1-B51A-4AF8-9164-82B7F94620B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF1C7C1-B51A-4AF8-9164-82B7F94620B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF1C7C1-B51A-4AF8-9164-82B7F94620B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
